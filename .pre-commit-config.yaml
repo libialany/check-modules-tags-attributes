@@ -1,0 +1,8 @@
+repos:
+  - repo: local
+    hooks:
+      - id: check-substring
+        name: Check substring in file
+        entry: bash scripts/check_substring.sh
+        language: system
+        pass_filenames: false
