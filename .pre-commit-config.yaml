@@ -1,8 +1,5 @@
 repos:
-  - repo: local
+  - repo: https://github.com/libialany/demohook
+    rev: v1.0.0
     hooks:
       - id: check-substring
-        name: Check substring in file
-        entry: bash scripts/check_substring.sh
-        language: system
-        pass_filenames: false
