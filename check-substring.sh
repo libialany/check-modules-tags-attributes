@@ -1,2 +1,2 @@
-#!/usr/bin/env bash
-echo "Running demo hook"
+#!/bin/sh
+grep -r --include="*.tfvars" --include="*.tf" "tag*" "$(pwd)"
