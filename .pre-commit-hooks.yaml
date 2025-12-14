@@ -5,4 +5,4 @@
   language: script
   always_run: true
   files: \.tfvars$|\.tf$
-  exclude: ^(README\.md|*\.tfstate|main\.tf|outputs\.tf|setup\.sh|meta\.tf)$
+  exclude: ^(README\.md|.*\.tfstate|main\.tf|outputs\.tf|setup\.sh|meta\.tf)$
