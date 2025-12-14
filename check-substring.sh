@@ -1,10 +1,10 @@
 #!/bin/sh
 
-# Check if the user provided a search string
-if [ -z "$1" ]; then
-  echo "Usage: $0 <search-string>"
-  exit 1
-fi
+# # Check if the user provided a search string
+# if [ -z "$1" ]; then
+#   echo "Usage: $0 <search-string>"
+#   exit 1
+# fi
 
 # Get the search string from the first argument
 SEARCH_STRING="tag*"
