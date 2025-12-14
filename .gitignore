@@ -1,0 +1,5 @@
+r.sh
+*.tf
+*.tfvars
+*.tfstate
+*.tfstate.backup
