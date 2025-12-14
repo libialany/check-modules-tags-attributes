@@ -39,7 +39,3 @@ find . -type f \( -name "*.tfvars" \) | while read -r file; do
     fi
   fi
 done
-if [ $? -eq 0 ]; then
-  echo "Success: All .tf and .tfvars files have been processed successfully"
-  exit 0
-fi
